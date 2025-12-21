@@ -120,9 +120,9 @@
         right_layer {
             bindings = <
 &none     &none     &none      &pieoneer  &none        &none     &none          &none        &none      &none
-&kp LALT  &kp LGUI  &kp LSHFT  &kp LCTRL  &trans       &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &none
-&none     &none     &none      &none      &kp LC(B)    &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans
-                               &trans     &none        &trans    &trans
+&kp LALT  &kp LGUI  &kp LSHFT  &kp LCTRL  &none       &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &none
+&none     &none     &none      &none      &kp LC(B)    &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &none
+                               &none     &none        &none    &none
             >;
         };
 
@@ -130,26 +130,26 @@
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5    &none     &kp MINUS  &kp EQUAL  &kp NON_US_BACKSLASH  &kp GRAVE
 &kp N6        &kp NUMBER_7  &mt LSHFT N8  &kp N9        &kp N0    &none     &kp RCTRL  &kp RSHFT  &kp RIGHT_GUI         &kp RIGHT_ALT
-&trans        &trans        &trans        &trans        &trans    &kp LBKT  &kp RBKT   &none      &none                 &kp SQT
-                                          &trans        &trans    &mo 4     &mo 3
+&none        &none        &none        &none        &none    &kp LBKT  &kp RBKT   &none      &none                 &kp SQT
+                                          &none        &none    &mo 4     &mo 3
             >;
         };
 
         tri_layer {
             bindings = <
-&kp F1        &kp F2        &kp F3      &kp F4  &kp F5     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &kp LC(LG(Q))
-&kp F6        &kp F7        &kp F8      &kp F9  &kp F10    &trans        &trans        &trans        &trans  &none
-&kp C_VOL_DN  &kp C_VOL_UP  &kp K_MUTE  &none   &none      &trans        &trans        &trans        &trans  &trans
-                                        &trans  &trans     &trans        &trans
+&kp F1        &kp F2        &kp F3      &kp F4  &kp F5     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none  &kp LC(LG(Q))
+&kp F6        &kp F7        &kp F8      &kp F9  &kp F10    &none        &none        &none        &none  &none
+&kp C_VOL_DN  &kp C_VOL_UP  &kp K_MUTE  &none   &none      &none        &none        &none        &none  &none
+                                        &none  &none     &none        &none
             >;
         };
 
         layer_4 {
             bindings = <
-&trans  &trans          &mmv MOVE_UP    &trans           &msc SCRL_UP       &trans  &trans     &trans     &trans  &trans
-&trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN     &trans  &mkp LCLK  &mkp RCLK  &trans  &trans
-&trans  &trans          &trans          &msc SCRL_LEFT   &msc SCRL_RIGHT    &trans  &trans     &trans     &trans  &trans
-                                        &trans           &trans             &trans  &trans
+&none  &none          &mmv MOVE_UP    &none           &msc SCRL_UP       &none  &none     &none     &none  &none
+&none  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN     &none  &mkp LCLK  &mkp RCLK  &none  &none
+&none  &none          &none          &msc SCRL_LEFT   &msc SCRL_RIGHT    &none  &none     &none     &none  &none
+                                        &none           &none             &none  &none
             >;
         };
     };
