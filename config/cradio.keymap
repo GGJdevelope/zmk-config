@@ -131,28 +131,28 @@
 
         left_layer {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5    &none           &kp MINUS  &kp EQUAL  &kp BACKSLASH  &kp GRAVE
-&kp N6        &kp NUMBER_7  &mt LSHFT N8  &kp N9        &kp N0    &none           &kp RCTRL  &kp RSHFT  &kp RIGHT_GUI  &kp RIGHT_ALT
-&none         &none         &none         &none         &none     &kp LBKT        &kp RBKT   &none      &none          &kp SQT
-                                          &none         &none     &mo MOUSELAYER  &mo 3
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5    &none     &kp MINUS  &kp EQUAL  &kp BACKSLASH  &kp GRAVE
+&kp N6        &kp NUMBER_7  &mt LSHFT N8  &kp N9        &kp N0    &none     &kp RCTRL  &kp RSHFT  &kp RIGHT_GUI  &kp RIGHT_ALT
+&none         &none         &none         &none         &none     &kp LBKT  &kp RBKT   &none      &none          &kp SQT
+                                          &none         &none     &mo 4     &mo 3
             >;
         };
 
         tri_layer {
             bindings = <
-&kp F1        &kp F2        &kp F3      &kp F4  &kp F5     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none  &kp LC(LG(Q))
-&kp F6        &kp F7        &kp F8      &kp F9  &kp F10    &bt BT_CLR    &none         &none         &none  &none
-&kp C_VOL_DN  &kp C_VOL_UP  &kp K_MUTE  &none   &none      &none         &none         &none         &none  &none
-                                        &none   &none      &none         &none
+&kp F1  &kp F2  &kp F3  &kp F4        &kp F5          &none              &none            &none       &none  &kp LC(LG(Q))
+&kp F6  &kp F7  &kp F8  &kp F9        &kp F10         &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE  &none  &none
+&none   &none   &none   &none         &none           &none              &none            &none       &none  &none
+                        &bt BT_SEL 0  &bt BT_SEL 1    &none              &none
             >;
         };
 
         mouse_layer {
             bindings = <
-&none  &none              &mmv MOVE_Y(-300)  &none             &msc SCRL_UP       &none  &none      &none      &none  &none
-&none  &mmv MOVE_X(-300)  &mmv MOVE_Y(300)   &mmv MOVE_X(300)  &msc SCRL_DOWN     &none  &mkp LCLK  &mkp RCLK  &none  &none
-&none  &none              &none              &msc SCRL_LEFT    &msc SCRL_RIGHT    &none  &none      &none      &none  &none
-                                             &none             &none              &none  &none
+&none  &none           &mmv MOVE_UP    &none            &msc SCRL_UP       &none  &none      &none      &none  &none
+&none  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN     &none  &mkp LCLK  &mkp RCLK  &none  &none
+&none  &none           &none           &msc SCRL_LEFT   &msc SCRL_RIGHT    &none  &none      &none      &none  &none
+                                       &none            &none              &none  &none
             >;
         };
     };
