@@ -98,12 +98,14 @@
             bindings = <&kp CLCK>;
             key-positions = <1 2>;
             layers = <0>;
+            require-prior-idle-ms = <50>;
         };
 
         esc {
             bindings = <&kp ESC>;
             key-positions = <7 8>;
             layers = <0>;
+            require-prior-idle-ms = <50>;
         };
     };
 
