@@ -88,13 +88,13 @@
 
         capslock {
             bindings = <&kp CLCK>;
-            key-positions = <24 23>;
+            key-positions = <1 2>;
             layers = <0>;
         };
 
         esc {
             bindings = <&kp ESC>;
-            key-positions = <25 26>;
+            key-positions = <7 8>;
             layers = <0>;
         };
     };
