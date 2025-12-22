@@ -1,0 +1,18 @@
+/ {
+    kscan0 {
+        wakeup-source;
+    };
+    
+    leds {
+        compatible = "gpio-leds";
+        indicator_led: indicator_led {
+            gpios = <&gpio0 15 GPIO_ACTIVE_LOW>;  
+            label = "User LED";
+        };
+    };
+
+    aliases {
+        indicator-led = &indicator_led;  
+    };
+};
+
