@@ -2,4 +2,17 @@
     kscan0 {
         wakeup-source;
     };
+
+    leds {
+      compatible = "gpio-leds";
+      indicator_led: indicator_led {
+          gpios = <&gpio0 17 GPIO_ACTIVE_HIGH>;  // Adjust pin and polarity
+          label = "User LED";  // Optional
+      };
+    };
+
+    aliases {
+        indicator-led = &indicator_led;
+    };
 };
+
