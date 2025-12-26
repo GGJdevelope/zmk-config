@@ -9,7 +9,7 @@
 #define MOUSELAYER 4
 
 // Home row mods macro
-/* #define HRML(k1,k2,k3,k4) &ht LSHFT k1  &ht LALT k2  &ht LCTRL k3  &ht LGUI k4 */
+#define HRML(k1,k2,k3,k4) &ht LALT k1 &ht LGUI k2 &ht LSHFT k3 &ht LCTRL k4
 /* #define HRMR(k1,k2,k3,k4) &ht RGUI k1  &ht RCTRL k2  &ht RALT k3  &ht RSHFT k4 */
 
 / {
@@ -98,14 +98,14 @@
             bindings = <&kp CLCK>;
             key-positions = <1 2>;
             layers = <0>;
-            require-prior-idle-ms = <50>;
+            require-prior-idle-ms = <100>;
         };
 
         esc {
             bindings = <&kp ESC>;
             key-positions = <7 8>;
             layers = <0>;
-            require-prior-idle-ms = <50>;
+            require-prior-idle-ms = <100>;
         };
     };
 
@@ -142,7 +142,7 @@
         left_layer {
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5    &none     &kp MINUS  &kp EQUAL  &kp BACKSLASH  &kp GRAVE
-&kp N6        &kp NUMBER_7  &mt LSHFT N8  &kp N9        &kp N0    &none     &kp RCTRL  &kp RSHFT  &kp RIGHT_GUI  &kp RIGHT_ALT
+HRML(N6,      NUMBER_7,     N8,           N9,           N0)       &none     &kp RCTRL  &kp RSHFT  &kp RIGHT_GUI  &kp RIGHT_ALT
 &none         &none         &none         &none         &none     &kp LBKT  &kp RBKT   &none      &none          &kp SQT
                                           &none         &none     &mo 4     &mo 3
             >;
