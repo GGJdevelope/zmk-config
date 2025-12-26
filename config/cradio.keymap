@@ -142,7 +142,7 @@
         left_layer {
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5    &none     &kp MINUS  &kp EQUAL  &kp BACKSLASH  &kp GRAVE
-HRML(N6,      NUMBER_7,     N8,           N9,           N0)       &none     &kp RCTRL  &kp RSHFT  &kp RIGHT_GUI  &kp RIGHT_ALT
+HRML(N6,      NUMBER_7,     N8,           N9)           N0        &none     &kp RCTRL  &kp RSHFT  &kp RIGHT_GUI  &kp RIGHT_ALT
 &none         &none         &none         &none         &none     &kp LBKT  &kp RBKT   &none      &none          &kp SQT
                                           &none         &none     &mo 4     &mo 3
             >;
