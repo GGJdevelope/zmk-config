@@ -135,7 +135,7 @@
 &none     &none     &none      &pieoneer  &none        &none     &none          &none        &none      &none
 &kp LALT  &kp LGUI  &kp LSHFT  &kp LCTRL  &none        &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &none
 &none     &none     &none      &none      &kp LC(B)    &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &none
-                               &none      &none        &none     &none
+                               &none      &mo 3        &none     &none
             >;
         };
 
