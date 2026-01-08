@@ -70,6 +70,11 @@
             layers = <0>;
             slow-release;
         };
+        ltmuxleader {
+            bindings = <&kp LC(B)>;
+            key-positions = <13 19>;
+            layers = <0>;
+        };
 
         rctrl {
             bindings = <&kp RIGHT_CONTROL>;
@@ -142,8 +147,8 @@
         left_layer {
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5    &none     &kp MINUS  &kp EQUAL  &kp BACKSLASH  &kp GRAVE
-HRML(N6,      NUMBER_7,     N8,           N9)           &kp N0        &none     &kp RCTRL  &kp RSHFT  &kp RIGHT_GUI  &kp RIGHT_ALT
-&none         &none         &none         &none         &none     &kp LBKT  &kp RBKT   &none      &none          &kp SQT
+HRML(N6,      NUMBER_7,     N8,           N9)           &kp N0    &none     &kp RCTRL  &kp RSHFT  &kp RIGHT_GUI  &kp RIGHT_ALT
+&none         &none         &none         &none         &none     &kp LBKT  &kp RBKT   &kp COMMA  &kp DOT        &kp SQT
                                           &none         &mo 3     &mo 4     &mo 3
             >;
         };
